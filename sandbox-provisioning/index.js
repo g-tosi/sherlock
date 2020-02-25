@@ -282,7 +282,7 @@ function deleteByRgPrefix(rgPrefix) {
 module.exports = function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
     let rgCount = 1;
-    let region = 'eastus';
+    let region = 'westeurope';
     let duration = 30;  // minutes
     let requestPrefix = '';
 
